@@ -1,5 +1,7 @@
 import React from "react";
+import '../index2.css';
 import pic1 from "../images/image1.png";
+import i2 from "../images/i2.png";
 
 export default function About() {
   const mystyle = {
@@ -16,6 +18,13 @@ export default function About() {
   return (
     <>
       <div>
+        <div className="about_us">
+          <div className="about_text">
+            <h1>About Us</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae consectetur, doloremque pariatur consequuntur unde molestias nobis nulla debitis natus distinctio dicta amet quia vero veritatis mollitia, facere, laboriosam aperiam quas?</p>
+          </div>
+          <img src={i2} alt="" />
+        </div>
         <h1 className="text-center">We grow brands</h1>
         <h1 className="text-center">What is Techerudite?</h1>
         <p className="text-center" style={{ margin: " 1rem 11rem" }}>

@@ -1,0 +1,14 @@
+.about_us{
+    display: flex;
+}
+
+.about_us img{
+    width: 55%;
+    position: relative;
+    top: -140px;
+    z-index: -1;
+}
+
+.about_text{
+    padding: 100px;
+}
