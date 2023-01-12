@@ -115,9 +115,10 @@ and radius for circular corner*/
 }
 
 .timeline{
-    position: absolute;
+    display: flex;
+    justify-content: center;
     margin-top: 50px;
-    left: 500px;
+    left: 400px;
 }
 
 .right_num{

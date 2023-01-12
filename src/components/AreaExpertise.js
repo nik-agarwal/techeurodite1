@@ -10,11 +10,20 @@ import img6 from "../images/areaimg6.png";
 export default function AreaExpertise() {
     const cardstyle ={
         width : "19rem",
-        height : "11rem",
+        height : "12rem",
         margin : "2rem",
         alignItems : "center",
-        border : "1px solid black"
+        border : "1px solid black",
+        
     };
+    const cardstyle2 ={
+      width : "19rem",
+      height : "12rem",
+      margin : "2rem",
+      alignItems : "center",
+      border : "1px solid black",
+      boxShadow: "2px 2px 3px 3px"
+  };
   return (
     <>
       <div>
@@ -23,7 +32,7 @@ export default function AreaExpertise() {
       <div className="container" >
         <div style={{display : "flex" , flexWrap : "wrap" , justifyContent : "center", }}>
 
-          <div className="card" style={cardstyle}>
+          <div className="card" style={cardstyle2} >
             <img className="card-img-top" src={img1} alt="" style={{width : "4rem",marginTop : "2rem"}} />
             <div className="card-body">
               <p className="card-title">Web Development</p>

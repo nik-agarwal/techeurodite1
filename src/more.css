@@ -1,6 +1,5 @@
 .box{
-    position: relative;
-    top: 85rem;
+    /* top: 5rem; */
     display: flex;
     justify-content: space-around;
     /* margin: 0px 10%; */
