@@ -5,52 +5,6 @@ import pic2 from "../images/menu.png";
 
 export default function Navbar() {
   return (
-//     <div style={{marginTop : "2rem", color:"black"}}>
-//      <ul className="nav  justify-content-end">
-//         <li className="nav-item">
-//           <a className="nav-link active" aria-current="page" href="/">HOME</a>
-//         </li>
-//         <li className="nav-item dropdown">
-//           <a className="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-//             WHAT WE DO
-//           </a>
-//           <ul className="dropdown-menu">
-//             <li><a className="dropdown-item" href="/">Item 1</a></li>
-//             <li><a className="dropdown-item" href="/">Item 2</a></li>
-//           </ul>
-//         </li>
-//         <li className="nav-item dropdown">
-//           <a className="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-//             HIRE EXPERTS
-//           </a>
-//           <ul className="dropdown-menu">
-//             <li><a className="dropdown-item" href="/">Item 1</a></li>
-//             <li><a className="dropdown-item" href="/">Item 2</a></li>
-//           </ul>
-//         </li>
-//         <li className="nav-item">
-//             <a className="nav-link" href="/">COMPANY</a>
-//         </li>
-//         <li className="nav-item">
-//             <a className="nav-link" href="/">SAY HELLO!</a>
-//         </li>
-
-//         <div className="pos-f-t">
-//            <div className="collapse" id="navbarToggleExternalContent">
-//                 <div className="bg-dark p-4">
-//                   <h4 className="text-white">Collapsed content</h4>
-//                     <span className="text-muted">Toggleable via the navbar brand.</span>
-//                 </div>
-//             </div>
-//         <nav className="navbar navbar-dark bg-dark">
-//             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-//                 <span className="navbar-toggler-icon"></span>
-//             </button>
-//         </nav>
-// </div>
-
-//       </ul>
-//    </div>
 
 <nav className="navbar navbar-expand-lg  " >
 
@@ -62,7 +16,7 @@ export default function Navbar() {
 <div className="collapse navbar-collapse " id="navbarSupportedContent">
   <ul className="navbar-nav ms-auto">
     <li className="nav-item active">
-      <a className="nav-link" href="/">Home</a>
+      <a className="nav-link" href="/">HOME</a>
     </li>
     
     
