@@ -9,7 +9,6 @@ import Vision from './components/Vision';
 import WhatWeDo from './components/WhatWeDo';
 import More from './components/more';
 
-
 function App() {
   return (
     <div>
@@ -21,6 +20,8 @@ function App() {
       <WhatWeDo />
       <More/>
       <Testimonial/>
+      <Brand />
+      <Contact />
     </div>
   );
 }

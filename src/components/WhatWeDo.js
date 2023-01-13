@@ -8,7 +8,7 @@ export default function WhatWeDo() {
   return (
     
     <>
-      <div className="container" whiteSpace = "Normal">
+      <div className="container">
         <div className="remember">
           <p className="back_text">WHAT WE DO</p>
           <p className="up_text">What do we do to remembered for?</p>
