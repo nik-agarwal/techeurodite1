@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../index3.css"
 export default function Contact() {
   const bgcolor ={
     backgroundColor : "#f7f7f7"
@@ -33,7 +33,7 @@ export default function Contact() {
           placeholder="Your Message*"  required style={bgcolor}></textarea>
         </div>
 
-        <button type="submit" className="btn d-grid gap-2 col-6 mx-auto" style={btnstyle}>
+        <button type="submit" className="btn button d-grid gap-2 col-6 mx-auto" style={btnstyle}>
           SUBMIT
         </button>
       </form>

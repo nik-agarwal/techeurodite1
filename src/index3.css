@@ -1,0 +1,12 @@
+.button::after{
+    content: '';
+    position: absolute;
+    width: 30px;
+     height: 25px; 
+     right: -10px; 
+    background-image: linear-gradient(to right, #FF512F 0%, #DD2476 41%, #FF512F 100%);
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+    border: 1px solid black;
+}

@@ -16,12 +16,18 @@ export default function About() {
     width: "34rem",
     marginTop: "3rem",
   };
+  const aboutus ={
+    background: "linear-gradient(to right, #FF512F 0%, #DD2476 41%, #FF512F 100%)",
+    webkitBackgroundClip:"text",
+    webkitTextFillColor: "transparent"
+   
+  }
   return (
     <>
       
         <div className="about_us">
           <div className="about_text">
-            <h1 style={{ background: "linear-gradient(to right, #FF512F 0%, #DD2476 51%, #FF512F 100%)", WebkitTextFillColor: "transparent", WebkitBackgroundClip: "text", fontSize: "4rem", fontWeight: "bolder" }}>About Us</h1>
+            <h1 style={aboutus}>About Us</h1>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae consectetur, doloremque pariatur consequuntur unde molestias nobis nulla debitis natus distinctio dicta amet quia vero veritatis mollitia, facere, laboriosam aperiam quas?</p>
           </div>
           <img src={i2} alt="" />
