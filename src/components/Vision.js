@@ -6,16 +6,16 @@ export default function Vision() {
     const mystyle = {
         display: "flex",
         justifyContent: "space-around",
-        marginTop : "5rem",
-        flexWrap : "wrap"
+        marginTop : "3rem",
+        // flexWrap : "wrap"
       };
   return (
     <div>
         <div className="container " style={mystyle}>
       <div className="msn" id="msn2">
-          <img src={pic3} alt="" style ={{width :"25rem",height : "23rem"}}/>
-        </div>s
-        <div className="msn" id="msn1" style={{width : "24rem", marginTop : "6rem"}}>
+          <img src={pic3} alt="" style ={{width :"100%"}}/>
+        </div>
+        <div className="msn" id="msn1" style={{marginTop : "9rem"}}>
           <h1>Our VISION</h1>
           <br/>
           <br/>
@@ -30,7 +30,7 @@ export default function Vision() {
         
       </div>
       <div className="container">
-        <h1 style={{fontSize : "11rem",textAlign : "end", opacity : "0.1", marginTop : "-2rem"}}>
+        <h1 style={{fontSize : "11rem",textAlign : "end", opacity : "0.1", marginTop : "-8rem"}}>
           VISION
         </h1>
       </div>
