@@ -23,7 +23,7 @@ export default function Mission() {
       </p>
     </div>
     <div className="msn" id="msn2">
-      <img src={pic2} alt="" style ={{width :"23rem"}}/>
+      <img src={pic2} alt="" style ={{width :"30rem"}}/>
     </div>
   </div>
   <div className="container">

@@ -11,7 +11,7 @@ export default function Testimonial() {
     <>
       <div>
         <div className="remember">
-          <p className="back_text">TESTIMONAiLS</p>
+          <p className="back_text">TESTIMONAILS</p>
           <p className="up_text">Few Words From Our Clients</p>
           <p className="para_text">
             Some valuable words from our loving and ever growing customers
@@ -45,7 +45,7 @@ export default function Testimonial() {
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img class="d-block w-100" src="..." alt="First slide" />
+              <img class="d-block w-100" src="https://www.shutterstock.com/image-photo/man-hands-holding-global-network-260nw-1801568002.jpg" alt="First slide" />
             </div>
             <div class="carousel-item">
               <img class="d-block w-100" src="..." alt="Second slide" />
