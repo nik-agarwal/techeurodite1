@@ -20,8 +20,8 @@ function App() {
       <WhatWeDo />
       <More/>
       <Testimonial/>
-      <Brand />
-      <Contact />
+      {/* <Brand />
+      <Contact /> */}
     </div>
   );
 }
