@@ -28,8 +28,11 @@ export default function Testimonial() {
         </p>
       </div>
       
-      
-      
+      <div className="img" style={{textAlign:"center"}}>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpYpiAt7KtZCtAaSIirJQTHdCVjreCXDLrcr0wcr6uo-fhtdXZoxePYbEJcpfufw8ZUh4&usqp=CAU" alt="" style={{width:"6%", borderRadius:"50%", marginTop:"20px", height:"10%"}} />
+        <h6>Rashiem Page</h6>
+        <p>CEO</p>
+      </div>
     </>
   );
 }

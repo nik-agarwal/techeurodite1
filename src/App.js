@@ -8,8 +8,7 @@ import Testimonial from './components/Testimonial';
 import Vision from './components/Vision';
 import WhatWeDo from './components/WhatWeDo';
 import More from './components/more';
-import Brand from './components/Brand';
-import Contact from './components/Contact';
+
 function App() {
   return (
     <div>
@@ -21,8 +20,8 @@ function App() {
       <WhatWeDo />
       <More/>
       <Testimonial/>
-      <Brand />
-      <Contact />
+      {/* <Brand />
+      <Contact /> */}
     </div>
   );
 }

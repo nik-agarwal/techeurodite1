@@ -6,9 +6,9 @@
     width: 50%;
     position: relative;
     top: -140px;
-    z-index: -1;
+    z-index: -6;
 }
 
 .about_text{
-    padding: 100px;
+    padding: 100px 100px 0px 100px;
 }

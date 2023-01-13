@@ -3,7 +3,8 @@
     display: flex;
     justify-content: space-around;
     /* margin: 0px 10%; */
-    background-color:#F7F7F7;
+    background-color: rgb(245, 245, 245);
+    margin-top: 50px;
 }
 
 .box1 h3{
