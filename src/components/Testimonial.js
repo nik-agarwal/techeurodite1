@@ -3,7 +3,8 @@ import "../index1.css";
 
 export default function Testimonial() {
   const commaStyle = {
-    fonSize: "3rem",
+    display : "inline-block",
+    fontSize: "3rem",
     color: "grey",
     opacity: "0.4",
   };
@@ -20,7 +21,7 @@ export default function Testimonial() {
       </div>
       <div className="container">
         <p className="text-center">
-          <spin style={commaStyle}>"</spin>For my react native applications,
+          <p style={commaStyle}>"</p>For my react native applications,
           Tejash and his team has provided me very professional and captivative
           app. They worked dedicatedly and keep me updated with project updates.
           I think that is the best support from the team for me. Thank you for

@@ -12,3 +12,8 @@
 .about_text{
     padding: 100px 100px 0px 100px;
 }
+@media screen and (min-width: 450px) {
+    .about_text {
+      padding: 50px 50px 0px 50px;
+    }
+  }

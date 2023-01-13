@@ -28,7 +28,7 @@ export default function About() {
         <div className="about_us">
           <div className="about_text">
             <h1 style={aboutus}>About Us</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae consectetur, doloremque pariatur consequuntur unde molestias nobis nulla debitis natus distinctio dicta amet quia vero veritatis mollitia, facere, laboriosam aperiam quas?</p>
+            <p className="aboutstyle">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae consectetur, doloremque pariatur consequuntur unde molestias nobis nulla debitis natus distinctio dicta amet quia vero veritatis mollitia, facere, laboriosam aperiam quas?</p>
           </div>
           <img src={i2} alt="" />
         </div>

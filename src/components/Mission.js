@@ -27,7 +27,7 @@ export default function Mission() {
     </div>
   </div>
   <div className="container">
-    <h1 style={{fontSize : "10rem",marginLeft : "5rem", opacity : "0.1"}}>
+    <h1 style={{fontSize : "10rem",marginTop : "-6rem", opacity : "0.1"}}>
       MISSION
     </h1>
   </div></div>
