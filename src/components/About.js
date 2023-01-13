@@ -20,7 +20,7 @@ export default function About() {
       <div>
         <div className="about_us">
           <div className="about_text">
-            <h1>About Us</h1>
+            <h1 style={{background: "linear-gradient(to right, #FF512F 0%, #DD2476 51%, #FF512F 100%)",WebkitTextFillColor : "transparent",WebkitBackgroundClip:"text"}}>About Us</h1>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae consectetur, doloremque pariatur consequuntur unde molestias nobis nulla debitis natus distinctio dicta amet quia vero veritatis mollitia, facere, laboriosam aperiam quas?</p>
           </div>
           <img src={i2} alt="" />

@@ -1,6 +1,6 @@
 import React from "react";
 import "../index1.css";
-
+// import img  from "https://www.pexels.com/photo/silhouette-photo-of-woman-against-during-golden-hour-39853/";
 export default function Testimonial() {
   const commaStyle = {
     fonSize: "3rem",
@@ -27,7 +27,7 @@ export default function Testimonial() {
           the best application.
         </p>
       </div>
-      
+
       <div className="container">
         <div
           id="carouselExampleIndicators"
@@ -45,13 +45,13 @@ export default function Testimonial() {
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img class="d-block w-100" src="..." alt="First slide" />
+              <img class="d-block w-100" src={require("https://www.pexels.com/photo/silhouette-photo-of-woman-against-during-golden-hour-39853/")} alt="First slide" />
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="..." alt="Second slide" />
+              <img class="d-block w-100" src={require("https://www.pexels.com/photo/silhouette-photo-of-woman-against-during-golden-hour-39853/")} alt="Second slide" />
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="..." alt="Third slide" />
+              <img class="d-block w-100" src={require("https://www.pexels.com/photo/silhouette-photo-of-woman-against-during-golden-hour-39853/")} alt="Third slide" />
             </div>
           </div>
           <a
